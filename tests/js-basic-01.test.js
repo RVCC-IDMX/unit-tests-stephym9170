@@ -48,7 +48,7 @@ TODO: DO NOT assign it a value.
 */
 
 // * Add your code BELOW here
-
+let myName;
 // * Don't mess with the test code below here!
 
 test('myName', () => {
@@ -71,7 +71,7 @@ TODO: number literal value of integer 22.
 */
 
 // * Add your code BELOW here
-
+let age = 22;
 // * Don't mess with the test code below here!
 
 test('age', () => {
@@ -93,7 +93,7 @@ TODO: the number literal value 7.
 */
 
 // * Add your code BELOW here
-
+const daysInWeek = 7;
 // * Don't mess with the test code below here!
 
 test('daysInWeek', () => {
@@ -127,7 +127,8 @@ TODO: of one varaible to a different variable.
 */
 
 // * Add your code BELOW here
-
+let myWorkDays;
+myWorkDays = daysInWeek;
 // * Don't mess with the test code below here!
 
 test('myWorkDays', () => {
@@ -158,7 +159,9 @@ TODO: (using the * operator for multiplication).
 */
 
 // * Add your code BELOW here
-
+let oops;
+let sillyMath;
+sillyMath = oops * 2;
 // * Don't mess with the test code below here!
 
 test('sillyMath', () => {
@@ -185,7 +188,8 @@ TODO: In the second line, assign sillyString to 'Hello, ' and concatenate oops t
 */
 
 // * Add your code BELOW here
-
+let sillyString;
+sillyString = 'Hello, ' + oops;
 // * Don't mess with the test code below here!
 
 test('sillyString', () => {
